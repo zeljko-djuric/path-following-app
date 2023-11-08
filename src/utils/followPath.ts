@@ -1,6 +1,6 @@
 import { findError } from "./findError";
 
-export default function followPath(map: string) {
+const followPath = (map: string) => {
   const rows: string[] = map.split("\n");
   const width: number = rows[0].length;
   const height: number = rows.length;
@@ -147,4 +147,6 @@ export default function followPath(map: string) {
 
     pathData.push({ x, y, currentChar });
   }
-}
+};
+
+export default followPath;

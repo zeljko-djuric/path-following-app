@@ -48,12 +48,14 @@ const PathWalkerUI = () => {
                 Enter Your Path
               </h2>
               <TextArea
+                id="text-area"
                 rows={10}
                 style={{ width: "100%" }}
                 onChange={handleInputChange}
                 placeholder="Enter your path (use spaces for empty cells)"
               />
               <Button
+                id="submit-button"
                 type="primary"
                 onClick={handleCalculate}
                 style={{
@@ -96,12 +98,13 @@ const PathWalkerUI = () => {
                 <Alert type="error" banner message={result.error} />
               )}
               <Card
+                id="collected-letters"
                 title="Collected Letters"
                 style={{ width: "100%", margin: "16px 0" }}
               >
                 {result.letters}
               </Card>
-              <Card title="Path" style={{ width: "100%", margin: "16px 0" }}>
+              <Card id ="path" title="Path" style={{ width: "100%", margin: "16px 0" }}>
                 {result.pathData}
               </Card>
             </div>

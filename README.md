@@ -12,7 +12,7 @@ More about code challenge read [here](https://github.com/softwaresauna/code-chal
 
 ## Demo
 
-The Project is live and hosted at [GitHub Pages](https://yourusername.github.io/reponame) allowing everyone to enjoy a user-friendly interface while exploring various test cases.
+The Project is live and hosted at [GitHub Pages](https://zeljko-djuric.github.io/path-following-app/) allowing everyone to enjoy a user-friendly interface while exploring various test cases.
 
 ## Getting Started
 

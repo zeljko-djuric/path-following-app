@@ -2,6 +2,7 @@
   "name": "path-following-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/zeljko-djuric/path-following-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -16,7 +17,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,6 +42,7 @@
   "devDependencies": {
     "@babel/preset-react": "^7.22.15",
     "cypress": "^13.4.0",
+    "gh-pages": "^6.0.0",
     "jest": "^27.5.1"
   }
 }
